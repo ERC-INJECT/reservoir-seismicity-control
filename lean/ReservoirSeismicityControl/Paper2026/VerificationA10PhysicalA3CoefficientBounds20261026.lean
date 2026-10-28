@@ -1,0 +1,3 @@
+import ReservoirSeismicityControl.Paper2026.PhysicalA10PhysicalA3CoefficientBounds20261026
+
+#print axioms ReservoirSeismicityControl.Paper2026.paper_A10_actual_control_inputs_with_physical_A3_coefficient_bounds

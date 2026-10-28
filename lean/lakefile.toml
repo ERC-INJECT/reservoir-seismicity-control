@@ -1,0 +1,14 @@
+name = "reservoir_seismicity_control"
+version = "0.1.0"
+
+[[lean_lib]]
+name = "ReservoirSeismicityControl"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc4"
+
+# Trial only: module tree vendored at a fixed upstream Git commit.
+[[lean_lib]]
+name = "MarkovProcess"

@@ -1,0 +1,32 @@
+import ReservoirSeismicityControl.Paper2026.PhysicalPressureNDCanonicalSmooth20261027
+import ReservoirSeismicityControl.Paper2026.VerificationSpatialNDMaximal20261027
+
+/-!
+# Unified spatial n_d = 1,2,3: concrete measure and smooth density checkpoint
+
+No new physics hypotheses. This checks the generic physical reservoir measure,
+exact subtype L² transport, zero extension and transfer of the accepted
+standard smooth approximation. It does not misrepresent an arbitrary measure
+as Euclidean volume and does not assert the geometric approximation result
+without its known analytic regularity assumptions.
+-/
+
+#check ReservoirSeismicityControl.Paper2026.PaperSpatialDimension
+#check ReservoirSeismicityControl.pressureNDRestrictedMeasure
+#check ReservoirSeismicityControl.pressure_nd_restricted_measure_finite
+#check ReservoirSeismicityControl.pressure_nd_subtype_measure_preserving
+#check ReservoirSeismicityControl.pressure_nd_subtype_eLpNorm_eq
+#check ReservoirSeismicityControl.pressure_nd_subtype_zero_extend_memLp
+#check ReservoirSeismicityControl.pressure_nd_subtype_smooth_approx_of_ambient
+#check ReservoirSeismicityControl.pressure_nd_physical_smooth_tests_dense
+#check ReservoirSeismicityControl.pressureNDSmoothNegDiv
+#check ReservoirSeismicityControl.pressureNDSmoothVectorL2Embed
+#check ReservoirSeismicityControl.pressure_nd_smooth_vector_embed_ae
+#check ReservoirSeismicityControl.pressure_nd_smooth_negDiv_embed_ae
+#check ReservoirSeismicityControl.pressure_nd_canonical_smooth_vector_tests_dense
+#check ReservoirSeismicityControl.pressure_nd_canonical_smooth_scalar_tests_dense
+#check ReservoirSeismicityControl.pressure_nd_maximal_weak_A3_semigroup_exists
+#print axioms ReservoirSeismicityControl.pressure_nd_subtype_zero_extend_memLp
+#print axioms ReservoirSeismicityControl.pressure_nd_physical_smooth_tests_dense
+#print axioms ReservoirSeismicityControl.pressure_nd_canonical_smooth_vector_tests_dense
+#print axioms ReservoirSeismicityControl.pressure_nd_canonical_smooth_scalar_tests_dense

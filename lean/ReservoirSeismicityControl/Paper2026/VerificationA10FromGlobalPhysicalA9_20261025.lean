@@ -1,0 +1,4 @@
+import ReservoirSeismicityControl.Paper2026.PhysicalA10FromGlobalPhysicalA9_20261025
+
+#check ReservoirSeismicityControl.Paper2026.paper_A10_actual_control_inputs_from_global_physical_A9
+#print axioms ReservoirSeismicityControl.Paper2026.paper_A10_actual_control_inputs_from_global_physical_A9
